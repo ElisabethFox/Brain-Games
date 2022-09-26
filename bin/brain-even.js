@@ -6,8 +6,8 @@ import { getTheUserName } from "../src/cli.js";
 greetingTheUser;
 console.log('Answer "yes" if the number is even, otherwise answer "no"');
 
-const getRandomInteger = () => {
-  const integer = -100 + Math.random() * (100 + 1 - -100);
+const getRandomInteger = (min = 0, max = 100) => {
+  const integer = min + Math.random() * (max + 1 - min);
   return Math.floor(integer);
 };
 
@@ -26,9 +26,7 @@ const isTheNumberEven = () => {
       console.log("Correct!");
       i += 1;
     } else {
-      console.log(
-        `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${getTheUserName()}!`
-      );
+      return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${getTheUserName()}!`;
       i = 0;
     }
   }
