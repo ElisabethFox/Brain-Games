@@ -29,7 +29,7 @@ const isTheNumberEven = () => {
       return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
     }
   }
-  console.log(`Congratulations, ${userName}!`);
+  return `Congratulations, ${userName}!`;
 };
 
 console.log(isTheNumberEven());
