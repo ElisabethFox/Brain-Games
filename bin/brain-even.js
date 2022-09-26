@@ -26,11 +26,10 @@ const isTheNumberEven = () => {
       console.log("Correct!");
       i += 1;
     } else {
-      return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${getTheUserName()}!`;
-      i = 0;
+      return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, userName!`;
     }
   }
-  console.log(`Congratulations, ${getTheUserName()}!`);
+  console.log(`Congratulations, userName!`);
 };
 
 console.log(isTheNumberEven());
