@@ -1,4 +1,4 @@
-#!/usr/bin/env node.
+#!/usr/bin/env node
 import readlineSync from "readline-sync";
 import * as greetingTheUser from "../src/cli.js";
 import { userName } from "../src/cli.js";
@@ -25,8 +25,10 @@ const isTheNumberEven = () => {
     ) {
       console.log("Correct!");
       i += 1;
-    } else {
+    } else if (randomInteger % 2 !== 0 && answer === "yes") {
       return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
+    } else {
+      return `'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`;
     }
   }
   return `Congratulations, ${userName}!`;
