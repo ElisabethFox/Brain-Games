@@ -26,12 +26,14 @@ const isTheNumberEven = () => {
       console.log("Correct!");
       i += 1;
     } else if (randomInteger % 2 !== 0 && answer === "yes") {
-      return `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
+      return `'${answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
     } else {
-      return `'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`;
+      return `'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`;
     }
   }
   return `Congratulations, ${userName}!`;
 };
 
 console.log(isTheNumberEven());
+
+export { getRandomInteger };
