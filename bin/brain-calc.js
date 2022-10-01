@@ -2,7 +2,7 @@
 import readlineSync from "readline-sync";
 import * as greetingTheUser from "../src/cli.js";
 import { userName } from "../src/cli.js";
-import { getRandomInteger } from "../bin/brain-even.js";
+import { getRandomInteger } from "../bin/getRandomInteger.js";
 
 greetingTheUser;
 console.log("What is the result of the expression?");
