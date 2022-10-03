@@ -1,33 +1,37 @@
 #!/usr/bin/env node
-import readlineSync from "readline-sync";
-import * as greetingTheUser from "../src/cli.js";
-import { userName } from "../src/cli.js";
-import { getRandomInteger } from "../bin/getRandomInteger.js";
+import { playTheGame } from "../src/index.js";
+import { task, isTheNumberEvenRound } from "../games/even.js";
 
-greetingTheUser;
-console.log('Answer "yes" if the number is even, otherwise answer "no"');
+console.log(playTheGame(task, isTheNumberEvenRound()));
 
-const isTheNumberEven = () => {
-  let i = 0; // счетчик верных ответов
+// import readlineSync from "readline-sync";
+// import * as greetingTheUser from "../src/cli.js";
+// import { userName } from "../src/cli.js";
+// import { getRandomInteger } from "../src/getRandomInteger.js";
 
-  while (i < 3) {
-    const randomInteger = getRandomInteger();
-    const question = `Question: ${randomInteger}`;
-    console.log(question);
-    const answer = readlineSync.question("Your answer: ");
-    if (
-      (randomInteger % 2 === 0 && answer === "yes") ||
-      (randomInteger % 2 !== 0 && answer === "no")
-    ) {
-      console.log("Correct!");
-      i += 1;
-    } else if (randomInteger % 2 !== 0 && answer === "yes") {
-      return `'${answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
-    } else {
-      return `'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`;
-    }
-  }
-  return `Congratulations, ${userName}!`;
-};
+// const isTheNumberEven = () => {
+//   greetingTheUser;
+//   const task = 'Answer "yes" if the number is even, otherwise answer "no"';
+//   console.log(task);
 
-console.log(isTheNumberEven());
+//   let i = 0; // счетчик верных ответов
+
+//   while (i < 3) {
+//     const randomInteger = getRandomInteger(0, 100);
+//     const question = `Question: ${randomInteger}`;
+//     console.log(question);
+//     const answer = readlineSync.question("Your answer: ");
+//     const correctAnswer = randomInteger % 2 === 0 ? "yes" : "no";
+
+//     if (answer === correctAnswer) {
+//       console.log("Correct!");
+//       i += 1;
+//     } else {
+//       return `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`;
+//     }
+//   }
+
+//   return `Congratulations, ${userName}!`;
+// };
+
+// console.log(isTheNumberEven());
