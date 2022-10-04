@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-import { playTheGame } from "../src/index.js";
-import { task, isTheNumberEvenRound } from "../games/even.js";
+import playTheGame from "../games/even.js";
 
-console.log(playTheGame(task, isTheNumberEvenRound()));
+playTheGame();
 
 // import readlineSync from "readline-sync";
 // import * as greetingTheUser from "../src/cli.js";
