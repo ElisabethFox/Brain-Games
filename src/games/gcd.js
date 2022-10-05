@@ -1,5 +1,5 @@
-import { getRandomInteger } from "../src/helper.js";
-import { playTheGame } from "../src/index.js";
+import { getRandomInteger } from "../helper.js";
+import { playTheGame } from "../index.js";
 
 const task = "Find the greatest common divisor of given numbers.";
 
@@ -19,14 +19,13 @@ const getQuestionAndAnswer = () => {
   const secondRandomInteger = getRandomInteger(0, 50);
 
   const question = `${firstRandomInteger} ${secondRandomInteger}`;
-  const correctAnswer = getTheGreatestCommonDivisor(
-    firstRandomInteger,
-    secondRandomInteger
+  const correctAnswer = String(
+    getTheGreatestCommonDivisor(firstRandomInteger, secondRandomInteger)
   );
 
   return [question, correctAnswer];
 };
 
 export default () => {
-  playTheGame(task, getQuestionAndAnswer());
+  playTheGame(task, getQuestionAndAnswer);
 };
