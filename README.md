@@ -8,23 +8,23 @@
 
 **How to use it?**
 
-> 1.  Install node.js of the latest version on the system globally
-> 2.  Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1v
-> 3.  Initialize the npm package inside the root directory of the project
-> 4.  Start every game with command: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime
+• Install node.js of the latest version on the system globally
+• Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1v
+• Initialize the npm package inside the root directory of the project
+• Start every game with command: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime
 
-_First game_: brain-even. The user is shown a random number, he should answer 'yes' if the number is even, or 'no' if it is odd. https://asciinema.org/a/524324
+First game: brain-even. The user is shown a random number, he should answer 'yes' if the number is even, or 'no' if it is odd. https://asciinema.org/a/524324
 
-_Second game_: brain-calc. The user is shown a mathematical expression, he should give the correct answer. https://asciinema.org/a/524996
+Second game: brain-calc. The user is shown a mathematical expression, he should give the correct answer. https://asciinema.org/a/524996
 
-_Third game_: brain-gcd. The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers. https://asciinema.org/a/525087
+Third game: brain-gcd. The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers. https://asciinema.org/a/525087
 
-_Fourth game_: brain-progression. The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element. https://asciinema.org/a/525179
+Fourth game: brain-progression. The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element. https://asciinema.org/a/525179
 
-_Fifth game_: brain-prime. The user is shown a random number, he should answer 'yes' if the number is prime, or 'no' if it is complex. https://asciinema.org/a/52587
+Fifth game: brain-prime. The user is shown a random number, he should answer 'yes' if the number is prime, or 'no' if it is complex. https://asciinema.org/a/52587
 
 **Minimum system requirements:**
 
-> • MacOS/Linux
-> • Windows + WSL
-> • node.js v16.0.0.
+• MacOS/Linux
+• Windows + WSL
+• node.js v16.0.0.
