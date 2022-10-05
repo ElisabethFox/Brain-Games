@@ -10,7 +10,7 @@ How to use it?
 
 • Install node.js of the latest version on the system globally
 
-• Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1v
+• Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1
 
 • Initialize the npm package inside the root directory of the project
 
