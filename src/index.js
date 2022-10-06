@@ -14,9 +14,7 @@ const playTheGame = (task, getQuestionAndAnswer) => {
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
-      return console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`
-      );
+      return console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
     }
   }
   return console.log(`Congratulations, ${userName}!`);
