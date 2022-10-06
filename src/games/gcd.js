@@ -19,9 +19,7 @@ const getQuestionAndAnswer = () => {
   const secondRandomInteger = getRandomInteger(0, 50);
 
   const question = `${firstRandomInteger} ${secondRandomInteger}`;
-  const correctAnswer = String(
-    getTheGreatestCommonDivisor(firstRandomInteger, secondRandomInteger)
-  );
+  const correctAnswer = String(getTheGreatestCommonDivisor(firstRandomInteger, secondRandomInteger));
 
   return [question, correctAnswer];
 };
