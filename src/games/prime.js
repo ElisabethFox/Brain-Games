@@ -1,5 +1,5 @@
-import { getRandomInteger } from "../helper.js";
-import { playTheGame } from "../index.js";
+import { getRandomInteger } from '../helper.js';
+import { playTheGame } from '../index.js';
 
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -14,7 +14,7 @@ const isTheIntegerPrime = (integer) => {
 
 const getQuestionAndAnswer = () => {
   const question = getRandomInteger(2, 50);
-  const correctAnswer = isTheIntegerPrime(question) ? "yes" : "no";
+  const correctAnswer = isTheIntegerPrime(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };

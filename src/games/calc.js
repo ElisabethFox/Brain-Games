@@ -1,9 +1,9 @@
-import { getRandomInteger } from "../helper.js";
-import { playTheGame } from "../index.js";
+import { getRandomInteger } from '../helper.js';
+import { playTheGame } from '../index.js';
 
-const task = "What is the result of the expression?";
+const task = 'What is the result of the expression?';
 
-const getRandomExpression = (operators = ["+", "-", "*"]) => {
+const getRandomExpression = (operators = ['+', '-', '*']) => {
   const randomIndex = Math.floor(Math.random() * operators.length);
   const randomOperator = operators[randomIndex];
 
@@ -14,14 +14,14 @@ const getRandomExpression = (operators = ["+", "-", "*"]) => {
 };
 
 const resultOfExpression = (expression) => {
-  const elements = expression.split(" ");
+  const elements = expression.split(' ');
   let result = Number(elements[0]);
 
   switch (elements[1]) {
-    case "+":
+    case '+':
       result += Number(elements[2]);
       break;
-    case "-":
+    case '-':
       result -= Number(elements[2]);
       break;
     default:
