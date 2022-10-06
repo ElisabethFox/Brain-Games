@@ -22,4 +22,4 @@ const playTheGame = (task, getQuestionAndAnswer) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-export { playTheGame };
+export default playTheGame;
