@@ -1,5 +1,5 @@
-import { getRandomInteger } from '../helper.js';
-import { playTheGame } from '../index.js';
+import getRandomInteger from '../helper.js';
+import playTheGame from '../index.js';
 
 const getRandomProgression = (firstElement, progressionStep) => {
   const result = [firstElement];
@@ -13,10 +13,9 @@ const getRandomProgression = (firstElement, progressionStep) => {
 const task = 'What number is missing in the progression?';
 
 const getQuestionAndAnswer = () => {
-  const randomProgression = getRandomProgression(
-    getRandomInteger(1, 10),
-    getRandomInteger(1, 5)
-  );
+  const firstElement = getRandomInteger(1, 10);
+  const progressionStep = getRandomInteger(1, 5);
+  const randomProgression = getRandomProgression(firstElement, progressionStep);
   const indexOfMissingElement = getRandomInteger(0, 9);
 
   const correctAnswer = String(randomProgression[indexOfMissingElement]);

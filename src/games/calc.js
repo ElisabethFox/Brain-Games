@@ -1,5 +1,5 @@
-import { getRandomInteger } from '../helper.js';
-import { playTheGame } from '../index.js';
+import getRandomInteger from '../helper.js';
+import playTheGame from '../index.js';
 
 const task = 'What is the result of the expression?';
 
@@ -7,10 +7,10 @@ const getRandomExpression = (operators = ['+', '-', '*']) => {
   const randomIndex = Math.floor(Math.random() * operators.length);
   const randomOperator = operators[randomIndex];
 
-  return `${getRandomInteger(0, 10)} ${randomOperator} ${getRandomInteger(
-    0,
-    10
-  )}`;
+  const firstOperand = getRandomInteger(0, 10);
+  const secondOperand = getRandomInteger(0, 10);
+
+  return `${firstOperand} ${randomOperator} ${secondOperand}`;
 };
 
 const resultOfExpression = (expression) => {

@@ -1,5 +1,5 @@
-import { getRandomInteger } from '../helper.js';
-import { playTheGame } from '../index.js';
+import getRandomInteger from '../helper.js';
+import playTheGame from '../index.js';
 
 const task = 'Answer "yes" if the number is even, otherwise answer "no"';
 
