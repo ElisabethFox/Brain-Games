@@ -14,93 +14,15 @@
 > 4.  Start every game with command: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime
 
 First game: brain-even. The user is shown a random number, he should answer 'yes' if the number is even, or 'no' if it is odd. 
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '524324.cast',
-      document.getElementById('player'),
-      { cols: 80, rows: 24 }
-    );
-  </script>
-</body>
-</html>
 
-Second game: brain-calc. The user is shown a mathematical expression, he should give the correct answer. https://<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '524996.cast',
-      document.getElementById('player'),
-      { cols: 80, rows: 24 }
-    );
-  </script>
-</body>
-</html>
+Second game: brain-calc. The user is shown a mathematical expression, he should give the correct answer. https://asciinema.org/a/524996
 
-Third game: brain-gcd. The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers.
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '525087.cast',
-      document.getElementById('player'),
-      { cols: 80, rows: 24 }
-    );
-  </script>
-</body>
-</html>
+Third game: brain-gcd. The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers. https://asciinema.org/a/525087
 
-Fourth game: brain-progression. The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element. 
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '525179.cast',
-      document.getElementById('player'),
-      { cols: 80, rows: 24 }
-    );
-  </script>
-</body>
-</html>
+Fourth game: brain-progression. The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element. https://asciinema.org/a/525179
 
 Fifth game: brain-prime. The user is shown a random number, he should answer 'yes' if the number is prime, or 'no' if it is complex. 
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '525879.cast',
-      document.getElementById('player'),
-      { cols: 80, rows: 24 }
-    );
-  </script>
-</body>
-</html>
+![](https://asciinema.org/a/525879)
 
 **Minimum system requirements:**
 
