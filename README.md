@@ -19,12 +19,12 @@ sudo apt install -y nodejs
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install nodejs
 ```
-> 3.  Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1
-> 4.  Initialize the npm package inside the root directory of the project
+> 2.  Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1
+> 3.  Initialize the npm package inside the root directory of the project
 ```
 npm init
 ```
-> 5.  Start every game, which you choose, with command:
+> 4.  Start every game, which you choose, with command:
  - brain-even 
  - brain-calc
  - brain-gcd
