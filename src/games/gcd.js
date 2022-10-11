@@ -1,7 +1,7 @@
 import getRandomInteger from '../helper.js';
 import playTheGame from '../index.js';
 
-const task = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGreatestCommonDivisor = (firstInteger, secondInteger) => {
   let result = 0;
@@ -25,5 +25,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  playTheGame(task, getQuestionAndAnswer);
+  playTheGame(description, getQuestionAndAnswer);
 };

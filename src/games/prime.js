@@ -1,7 +1,7 @@
 import getRandomInteger from '../helper.js';
 import playTheGame from '../index.js';
 
-const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isTheIntegerPrime = (integer) => {
   for (let i = integer - 1; i > 1; i -= 1) {
@@ -20,5 +20,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  playTheGame(task, getQuestionAndAnswer);
+  playTheGame(description, getQuestionAndAnswer);
 };
