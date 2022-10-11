@@ -8,21 +8,43 @@
 
 **How to use it?**
 
-> 1.  Install node.js of the latest version on the system globally
-> 2.  Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1
-> 3.  Initialize the npm package inside the root directory of the project
-> 4.  Start every game with command: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime
+> 1.  Install node.js of the latest version on the system globally. Upgrade Node.js to the latest version
+```
+*Ubuntu или Ubuntu on Windows:*
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
 
-First game: brain-even. The user is shown a random number, he should answer 'yes' if the number is even, or 'no' if it is odd. 
+*macOS*
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install nodejs
+```
+> 3.  Clone the repository locally: https://github.com/ElisabethFox/frontend-project-lvl1
+> 4.  Initialize the npm package inside the root directory of the project
+```
+npm init
+```
+> 5.  Start every game, which you choose, with command:
+ - brain-even 
+ - brain-calc
+ - brain-gcd
+ - brain-progression
+ - brain-prime
 
-Second game: brain-calc. The user is shown a mathematical expression, he should give the correct answer. https://asciinema.org/a/524996
+*Brain-even.* The user is shown a random number, he should answer 'yes' if the number is even, or 'no' if it is odd.
+[![asciicast](https://asciinema.org/a/524324.svg)](https://asciinema.org/a/524324)
 
-Third game: brain-gcd. The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers. https://asciinema.org/a/525087
+*Brain-calc.* The user is shown a mathematical expression, he should give the correct answer.
+[![asciicast](https://asciinema.org/a/524996.svg)](https://asciinema.org/a/524996)
 
-Fourth game: brain-progression. The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element. https://asciinema.org/a/525179
+*Brain-gcd.* The user is shown two random numbers, he should calculate and enter the greatest common divisor of these numbers. 
+[![asciicast](https://asciinema.org/a/525087.svg)](https://asciinema.org/a/525087)
 
-Fifth game: brain-prime. The user is shown a random number, he should answer 'yes' if the number is prime, or 'no' if it is complex. 
-![](https://asciinema.org/a/525879)
+*Brain-progression.* The user is shown a series of numbers that form an arithmetic progression, but one element. He should calculate this element.
+[![asciicast](https://asciinema.org/a/525179.svg)](https://asciinema.org/a/525179)
+
+*Brain-prime.* The user is shown a random number, he should answer 'yes' if the number is prime, or 'no' if it is complex. 
+[![asciicast](https://asciinema.org/a/525879.svg)](https://asciinema.org/a/525879)
 
 **Minimum system requirements:**
 
