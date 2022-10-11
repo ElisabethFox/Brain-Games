@@ -7,16 +7,16 @@ const operators = ['+', '-', '*'];
 const getResultOfExpression = (firstOperand, secondOperand, randomOperator) => {
   let result = 0;
 
-  switch(randomOperator) {
+  switch (randomOperator) {
     case '+':
       result = firstOperand + secondOperand;
       break;
     case '-':
       result = firstOperand - secondOperand;
       break;
-    case '*':
+    default:
       result = firstOperand * secondOperand;
-    break;
+      break;
   }
 
   return result;
