@@ -10,12 +10,12 @@
 
 > 1.  Install node.js of the latest version on the system globally. Upgrade Node.js to the latest version
 ```
-*Ubuntu или Ubuntu on Windows:*
+Ubuntu или Ubuntu on Windows:
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 
-*macOS*
+macOS
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install nodejs
 ```
