@@ -10,7 +10,7 @@ For use this programm install Node.js of the latest version on the system global
 
 **How to use it?**
 
-1. git clone git@github.com:ElisabethFox/Brain-Games-Hexlet-project-lvl-1.git
+1. git clone git@github.com:ElisabethFox/Brain-Games.git
 2. npm ci
 3.  Start every game, which you choose, with command:
  - brain-even 
