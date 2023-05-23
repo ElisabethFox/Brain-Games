@@ -1,15 +1,15 @@
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/ElisabethFox/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ElisabethFox/frontend-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9adab8822057a74866b9/maintainability)](https://codeclimate.com/github/ElisabethFox/frontend-project-lvl1/maintainability)
 
-<a href="https://codeclimate.com/github/ElisabethFox/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/9adab8822057a74866b9/maintainability" /></a>
+**"Brain Games"** is a collection of five console games for brain-pumping. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to go through it again.
 
-**"Brain Games" is a collection of five console games for brain-pumping. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to go through it again.**
+![BrainGames-img](./img/shikamaru_nara.png)
 
 For use this programm install Node.js of the latest version on the system globally. Upgrade Node.js to the latest version.
 
-**How to use it?**
-
+**How to use it?** 
 1. git clone git@github.com:ElisabethFox/Brain-Games.git
 2. npm ci
 3.  Start every game, which you choose, with command:
